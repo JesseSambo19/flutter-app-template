@@ -11,7 +11,7 @@ import '../../models/post_model.dart';
 import '../../utils/check_connectivity.dart';
 import '../../widgets/internet_connection.dart';
 import '../../widgets/loading.dart';
-import '../../widgets/no_user_data.dart';
+import '../../widgets/no_data.dart';
 import '../../widgets/refresh.dart';
 import 'widgets/post_details.dart';
 import 'widgets/read_more_button.dart';
@@ -120,7 +120,7 @@ class PostScreenState extends State<PostScreen> {
                       );
                     }
                   }
-                  return const NoUserData();
+                  return const NoData();
                 },
               ),
             )

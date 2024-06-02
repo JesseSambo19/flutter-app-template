@@ -10,7 +10,7 @@ import '../../providers/user_provider.dart';
 import '../../models/user_model.dart';
 import '../../widgets/internet_connection.dart';
 import '../../widgets/loading.dart';
-import '../../widgets/no_user_data.dart';
+import '../../widgets/no_data.dart';
 import '../../widgets/refresh.dart';
 import 'widgets/user_details.dart';
 import 'widgets/user_image.dart';
@@ -116,7 +116,7 @@ class UserScreenState extends State<UserScreen> {
                           );
                         }
                       }
-                      return const NoUserData();
+                      return const NoData();
                     },
                   ),
                 ],

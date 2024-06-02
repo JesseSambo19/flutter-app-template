@@ -51,4 +51,10 @@ class SharedPrefs {
     final prefs = await _getInstance();
     await prefs.clear();
   }
+
+    static Future<void> remove(String key) async {
+    //! Removes a value from SharedPreferences for the given key.
+    final prefs = await _getInstance();
+    await prefs.remove(key);
+  }
 }

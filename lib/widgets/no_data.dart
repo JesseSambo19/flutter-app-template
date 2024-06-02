@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-class NoUserData extends StatelessWidget {
-  const NoUserData({
+class NoData extends StatelessWidget {
+  const NoData({
     super.key,
   });
 
@@ -11,7 +11,7 @@ class NoUserData extends StatelessWidget {
     return const Center(
       child: Padding(
         padding: EdgeInsets.all(10.0),
-        child: Text('No user data available.'),
+        child: Text('No data available.'),
       ),
     );
   }
